@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
 
 public class lengthConverter extends AppCompatActivity {
@@ -16,7 +15,7 @@ public class lengthConverter extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_length_converter);
         meters = findViewById(R.id.meters);
-        inches = findViewById(R.id.inches);
+        inches = findViewById(R.id.hectares);
         btn = findViewById(R.id.cnvrtToInches);
 
         btn.setOnClickListener(v -> {
