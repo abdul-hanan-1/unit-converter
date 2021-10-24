@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/layout/activity_area_converter.xml" value="0.17552083333333332" />
+        <entry key="app/src/main/res/layout/activity_currency_converter.xml" value="0.17552083333333332" />
         <entry key="app/src/main/res/layout/activity_length_converter.xml" value="0.17552083333333332" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_temperature_converter.xml" value="0.17552083333333332" />
