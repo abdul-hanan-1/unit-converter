@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UnitConverter">
         <activity
+            android:name=".temperatureConverter"
+            android:exported="true" />
+        <activity
+            android:name=".currencyConverter"
+            android:exported="true" />
+        <activity
+            android:name=".areaConverter"
+            android:exported="true" />
+        <activity
+            android:name=".lengthConverter"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
