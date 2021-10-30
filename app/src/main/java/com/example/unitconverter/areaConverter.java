@@ -32,7 +32,7 @@ public class areaConverter extends AppCompatActivity {
 
 
         double hectare = squaremeter * 0.0001;
-        
+
         hectares.setText(hectare + " ha");
     }
 }

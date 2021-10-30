@@ -13,7 +13,7 @@ public class temperatureConverter extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_currency_converter);
+        setContentView(R.layout.activity_temperature_converter);
         kelvins = findViewById(R.id.kelvins);
         celsiuss = findViewById(R.id.celsiuss);
         btn = findViewById(R.id.cnvrtToCelsius);
@@ -33,6 +33,6 @@ public class temperatureConverter extends AppCompatActivity {
 
         double celsius = kelvin - 273.15;
 
-        kelvins.setText(celsius + " degree Celsius");
+        celsiuss.setText(celsius + " degree Celsius");
     }
 }

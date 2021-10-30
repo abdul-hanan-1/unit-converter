@@ -32,6 +32,6 @@ public class currencyConverter extends AppCompatActivity {
 
         double rupee = dollar * 174;
         //Displaying Result
-        dollars.setText(rupee + " RS");
+        rupees.setText(rupee + " RS");
     }
 }
