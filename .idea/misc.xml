@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/layout-land/activity_area_converter.xml" value="0.14858906525573193" />
+        <entry key="app/src/main/res/layout-land/activity_currency_converter.xml" value="0.14858906525573193" />
+        <entry key="app/src/main/res/layout-land/activity_length_converter.xml" value="0.14858906525573193" />
+        <entry key="app/src/main/res/layout-land/activity_main.xml" value="0.14858906525573193" />
+        <entry key="app/src/main/res/layout-land/activity_temperature_converter.xml" value="0.14858906525573193" />
         <entry key="app/src/main/res/layout/activity_area_converter.xml" value="0.17552083333333332" />
         <entry key="app/src/main/res/layout/activity_currency_converter.xml" value="0.17552083333333332" />
         <entry key="app/src/main/res/layout/activity_length_converter.xml" value="0.17552083333333332" />
