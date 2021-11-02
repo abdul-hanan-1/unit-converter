@@ -19,18 +19,17 @@ public class areaConverter extends AppCompatActivity {
         btn = findViewById(R.id.cnvrtToHectare);
 
         btn.setOnClickListener(v -> {
-
-            ConvertFromSquareMeterToHectare();
+            String valueEnteredInSquareMeter = squaremeters.getText().toString();
+            if (valueEnteredInSquareMeter != "") {
+                ConvertFromSquareMeterToHectare();
+            }
         });
 
     }
     private void ConvertFromSquareMeterToHectare() {
 
         String valueEnteredInSquareMeter = squaremeters.getText().toString();
-
         double squaremeter = Double.parseDouble(valueEnteredInSquareMeter);
-
-
         double hectare = squaremeter * 0.0001;
 
         hectares.setText(hectare + " ha");
